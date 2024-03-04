@@ -2,11 +2,88 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-h1 {
-    font-size: 60px;
-    font-style:normal;
-    text-align:center;
-    color: black;
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
 }
 
-img {width: 300px;}
+h1, h2 {font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: black;
+
+}
+
+h1 {font-size: 80px;
+    padding-bottom: 150px;
+}
+
+.hlavicka {
+    padding: 50px 30px;
+    background-image: url(pictures_projekt/hlavicka_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+}
+
+section {background-color: #F9B8B1;
+        overflow:auto;
+        padding: 30px 25px;
+}
+
+.omne 
+    p {
+    padding: 10px 30px 10px 30px;
+    margin: 50px 70px;
+    
+    }
+
+.foto-omne img{
+    width: 250px;
+    margin:20px 50px;
+    border-radius: 30px 30px 30px 30px;
+    float:left;
+}
+
+.foto-ot img{
+    width: 32%;
+    border-radius: 15px;
+    margin: 6px;
+}
+
+.ot, .cenik {
+    background-color: #57DBD8;
+    
+}    
+
+.mojeTabulka {
+    width: 50%; 
+    margin: 10px auto 10px auto; 
+    padding:5px 3px 5px 3px;
+    border: 8px solid #25388E; 
+    border-spacing: 10px;
+    border-radius: 15px;
+    background-color:#57DBD8;
+    font-size:15px;
+    font-weight: bold;
+    color:black;
+    text-align: justify;
+    }
+
+.fotoCenik img{
+    width:150px;
+    float:right;
+    border-radius: 15px ;
+    margin: 10px 70px;
+    }
+
+.cenikTabulka {
+    margin: 0 auto 0 auto; 
+    padding:5px 20px;
+    border-collapse: separate;
+    border-spacing:10px;
+    
+}
+
+.minuty {
+    width:200px;
+}
