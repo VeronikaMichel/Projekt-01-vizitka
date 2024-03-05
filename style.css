@@ -79,11 +79,37 @@ section {background-color: #F9B8B1;
 .cenikTabulka {
     margin: 0 auto 0 auto; 
     padding:5px 20px;
-    border-collapse: separate;
     border-spacing:10px;
     
 }
 
 .minuty {
-    width:200px;
+    width:150px;
+}
+
+.cena {
+    font-weight: bold;
+}
+.menu {
+    color: black;
+    background-color:#F84791;
+    padding: 0;
+    margin:0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 20px 30px;
+    font-weight: bolder;
+    
+}
+
+.paticka {
+    background-color:#57DBD8;
+    text-align: right;
 }
